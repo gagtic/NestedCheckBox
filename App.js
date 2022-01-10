@@ -100,13 +100,10 @@ const App = () => {
 
   return (
     <View>
-      <Text>Hello World</Text>
       <NestedCheckBoxes
         data_list={data}
         handleParent={handleParent}
         handleChild={handleChild}
-        handleStrictChild={handleStrictChild}
-        strict_mode={true}
       />
 
     </View>

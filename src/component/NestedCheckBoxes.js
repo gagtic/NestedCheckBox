@@ -5,9 +5,7 @@ import CheckBox from '@react-native-community/checkbox';
 const NestedCheckBoxes = ({
   data_list,
   handleParent,
-  handleChild,
-  handleStrictChild,
-  strict_mode
+  handleChild
 }) => {
   return (
     <View>
@@ -44,7 +42,7 @@ const NestedCheckBoxes = ({
                               value={is_checked}
                               onValueChange={new_value => {
 
-                                strict_mode && handleStrictChild(new_value, parent_index, child_index)
+                                // strict_mode && handleStrictChild(new_value, parent_index, child_index)
                                 handleChild(new_value, parent_index, child_index)
                               }}
                             />

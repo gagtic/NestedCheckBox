@@ -61,7 +61,10 @@ const [data, setData] = useState([
  The user can set any amount of childern that are assigned to a single parent.
  
 | Property        | Default           | Description  |
-| -------------   |:-------------:    | -----:       |
-| col 3 is        | right-aligned | $1600 |
-| col 2 is        | centered      |   $12 |
-| zebra stripes   | are neat      |    $1 |
+| -------------   |:-------------:    | :-----       |
+| data            | `Check Example`   | Input data which will be manipulated by the library        |
+
+# Future Prospects
+I will be adding a strict mode to the library that wil not allow parent to be unselected while any child is selected. That mode will usually cover usecase of showing weather all the childern are selected or not.
+
+Furthermore I will be adding a stylized list expanding feature that will be better for organizing large amount of data.
