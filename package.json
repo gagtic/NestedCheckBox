@@ -1,7 +1,6 @@
 {
   "name": "react-native-nested-checboxes",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -9,6 +8,16 @@
     "test": "jest",
     "lint": "eslint ."
   },
+  "repository":{
+    "type": "git",
+    "url": "git+https://github.com/gagtic/NestedCheckBox.git"
+  },
+  "keywords":[
+    "Nested",
+    "CheckBoxes"
+  ],
+  "author": "Muhammad Abdul Ahad",
+  "homepage": "https://github.com/gagtic/NestedCheckBox",
   "dependencies": {
     "@react-native-community/checkbox": "^0.5.9",
     "react": "17.0.2",
