@@ -1,6 +1,8 @@
 # react-native-nested-checkboxes
 
-`react-native-nested-checkboxes` is the simple implementation of checkboxes in nested style. They can be used when data is in a parent-child relation and needed to be selected
+`react-native-nested-checkboxes` is the simple implementation of checkboxes in nested style. They can be used when data is in a parent-child relation and needed to be selected.
+
+<img src="https://raw.githubusercontent.com/gagtic/NestedCheckBox/master/preview/nested_checbox.gif" width="180">
 
 # Getting started
 ## Installation
