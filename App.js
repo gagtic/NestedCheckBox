@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { View } from 'react-native'
 import NestedCheckBoxes from './src/component/NestedCheckBoxes'
 
-const App = ({data}) => {
+const NestedCheckBox = ({data}) => {
   const [data, setData] = useState([])
 
   const handleParent = (new_value, parent_index) => {
@@ -29,4 +29,4 @@ const App = ({data}) => {
   )
 }
 
-export default App;
+export default NestedCheckBox;

@@ -13,6 +13,10 @@ You would also need `@react-native-community/checkbox` for this.
 ```bash
 npm install @react-native-community/checkbox
 ```
+You would also need `react-native-vector-icons` for this.
+```bash
+npm install react-native-vector-icons
+```
 
 ## Linking
 From react-native >= 0.60 autolinking will take care of the link (on iOS and Android)
@@ -60,8 +64,15 @@ const [data, setData] = useState([
     },
   ])
  ```
+ # Usage
+
  The user can set any amount of childern that are assigned to a single parent.
+ ```javascript
+ <ReactNativeNestedCheckbox
+    data = {<example above>}>
+ ```
  
+ # Properties
 | Property        | Default           | Description  |
 | -------------   |:-------------:    | :-----       |
 | data            | `Check Example`   | Input data which will be manipulated by the library        |
