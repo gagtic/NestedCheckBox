@@ -7,7 +7,7 @@
 # Getting started
 ## Installation
 ```bash
-npm install react-native-nested-checkboxes
+npm i react-native-nested-checboxes
 ```
 You would also need `@react-native-community/checkbox` for this.
 ```bash
