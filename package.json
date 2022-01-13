@@ -22,7 +22,7 @@
     "@react-native-community/checkbox": "^0.5.9",
     "react": "17.0.2",
     "react-native": "0.66.4",
-    "react-native-nested-checboxes": "^1.0.2",
+    "react-native-nested-checboxes": "^2.0.0",
     "react-native-vector-icons": "^9.0.0"
   },
   "devDependencies": {
